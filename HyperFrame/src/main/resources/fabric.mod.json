@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hyperframe",
+  "version": "${version}",
+  "name": "HyperFrame",
+  "description": "Intelligent adaptive FPS and performance optimizer for Minecraft.",
+  "authors": [
+    "HyperFrame Team"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.hyperframe.HyperFrame"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
